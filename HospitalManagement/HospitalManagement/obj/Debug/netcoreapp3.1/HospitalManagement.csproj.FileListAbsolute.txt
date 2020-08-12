@@ -1,0 +1,16 @@
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\HospitalManagement.exe
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\HospitalManagement.deps.json
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\HospitalManagement.runtimeconfig.json
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\HospitalManagement.runtimeconfig.dev.json
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\HospitalManagement.dll
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\HospitalManagement.pdb
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.csprojAssemblyReference.cache
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.AssemblyInfoInputs.cache
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.AssemblyInfo.cs
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.csproj.CoreCompileInputs.cache
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.csproj.CopyComplete
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.dll
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.pdb
+C:\Users\TrainingAdmin\source\repos\HospitalManagement\HospitalManagement\obj\Debug\netcoreapp3.1\HospitalManagement.genruntimeconfig.cache
