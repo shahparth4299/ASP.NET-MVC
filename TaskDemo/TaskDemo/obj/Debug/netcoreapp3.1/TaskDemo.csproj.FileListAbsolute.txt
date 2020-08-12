@@ -1,0 +1,13 @@
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\bin\Debug\netcoreapp3.1\TaskDemo.exe
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\bin\Debug\netcoreapp3.1\TaskDemo.deps.json
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\bin\Debug\netcoreapp3.1\TaskDemo.runtimeconfig.json
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\bin\Debug\netcoreapp3.1\TaskDemo.runtimeconfig.dev.json
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\bin\Debug\netcoreapp3.1\TaskDemo.dll
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\bin\Debug\netcoreapp3.1\TaskDemo.pdb
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\obj\Debug\netcoreapp3.1\TaskDemo.csprojAssemblyReference.cache
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\obj\Debug\netcoreapp3.1\TaskDemo.AssemblyInfoInputs.cache
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\obj\Debug\netcoreapp3.1\TaskDemo.AssemblyInfo.cs
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\obj\Debug\netcoreapp3.1\TaskDemo.csproj.CoreCompileInputs.cache
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\obj\Debug\netcoreapp3.1\TaskDemo.dll
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\obj\Debug\netcoreapp3.1\TaskDemo.pdb
+C:\Users\TrainingAdmin\source\repos\TaskDemo\TaskDemo\obj\Debug\netcoreapp3.1\TaskDemo.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\bin\Debug\netcoreapp3.1\ThreadBasic.exe
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\bin\Debug\netcoreapp3.1\ThreadBasic.deps.json
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\bin\Debug\netcoreapp3.1\ThreadBasic.runtimeconfig.json
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\bin\Debug\netcoreapp3.1\ThreadBasic.runtimeconfig.dev.json
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\bin\Debug\netcoreapp3.1\ThreadBasic.dll
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\bin\Debug\netcoreapp3.1\ThreadBasic.pdb
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\obj\Debug\netcoreapp3.1\ThreadBasic.csprojAssemblyReference.cache
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\obj\Debug\netcoreapp3.1\ThreadBasic.AssemblyInfoInputs.cache
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\obj\Debug\netcoreapp3.1\ThreadBasic.AssemblyInfo.cs
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\obj\Debug\netcoreapp3.1\ThreadBasic.csproj.CoreCompileInputs.cache
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\obj\Debug\netcoreapp3.1\ThreadBasic.dll
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\obj\Debug\netcoreapp3.1\ThreadBasic.pdb
+C:\Users\TrainingAdmin\source\repos\ThreadBasic\ThreadBasic\obj\Debug\netcoreapp3.1\ThreadBasic.genruntimeconfig.cache
