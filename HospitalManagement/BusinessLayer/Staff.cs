@@ -4,12 +4,12 @@ namespace BusinessLayer
 {
     public class Staff
     {
-        protected short id;
-        protected short age;
-        protected string name;
-        protected string position;
-        protected string mobile_number;
-        protected Address addr;
+        private short id;
+        private short age;
+        private string name;
+        private string position;
+        private string mobile_number;
+        private Address addr;
         protected Staff(Address adr,short id,short age,string name,string position,string mobile)
         {
             this.id = id;
