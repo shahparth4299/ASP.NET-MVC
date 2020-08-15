@@ -1,0 +1,13 @@
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.exe
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.deps.json
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.runtimeconfig.json
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.runtimeconfig.dev.json
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.dll
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.pdb
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.csprojAssemblyReference.cache
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.AssemblyInfoInputs.cache
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.AssemblyInfo.cs
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.csproj.CoreCompileInputs.cache
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.dll
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.pdb
+C:\Users\TrainingAdmin\Desktop\Learning2020\LINQDemo\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.genruntimeconfig.cache

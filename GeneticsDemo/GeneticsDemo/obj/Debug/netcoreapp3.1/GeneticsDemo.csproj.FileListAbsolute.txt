@@ -1,0 +1,13 @@
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\obj\Debug\netcoreapp3.1\GeneticsDemo.csprojAssemblyReference.cache
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\obj\Debug\netcoreapp3.1\GeneticsDemo.AssemblyInfoInputs.cache
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\obj\Debug\netcoreapp3.1\GeneticsDemo.AssemblyInfo.cs
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\obj\Debug\netcoreapp3.1\GeneticsDemo.csproj.CoreCompileInputs.cache
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\bin\Debug\netcoreapp3.1\GeneticsDemo.exe
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\bin\Debug\netcoreapp3.1\GeneticsDemo.deps.json
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\bin\Debug\netcoreapp3.1\GeneticsDemo.runtimeconfig.json
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\bin\Debug\netcoreapp3.1\GeneticsDemo.runtimeconfig.dev.json
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\bin\Debug\netcoreapp3.1\GeneticsDemo.dll
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\bin\Debug\netcoreapp3.1\GeneticsDemo.pdb
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\obj\Debug\netcoreapp3.1\GeneticsDemo.dll
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\obj\Debug\netcoreapp3.1\GeneticsDemo.pdb
+C:\Users\TrainingAdmin\Desktop\Learning2020\GeneticsDemo\GeneticsDemo\obj\Debug\netcoreapp3.1\GeneticsDemo.genruntimeconfig.cache
