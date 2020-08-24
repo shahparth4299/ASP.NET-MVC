@@ -1,0 +1,112 @@
+﻿@model PatientLibrary.HospitalViewModel;
+@{
+    Layout = null;
+    var x = 0;
+    x++;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PatientAdd</title>
+</head>
+<script>
+    function Fun1() {
+        alert("hello");
+    }
+</script>
+<body>
+    <form method="post" action="/Patient/AddPatient">
+        Patient Name <input type="text" name="name" value="" /> <br />
+        Patient Address <input type="text" name="address" value="" /> <br />
+        <input type="submit" name="name" value="Add patient" />
+    </form> <br />
+    <form method="post" action="/Patient/AddProblems">
+        Problem <input type="text" name="problem" value="" /> <br />
+        <input type="submit" name="name" value="Add problems" />
+    </form> <br />
+    <form method="post" action="/Patient/AddTreatments">
+        Medicine Name: <input type="text" name="medicine_name" value="" /> <br />
+        Total Days <input type="text" name="total_times" value="" /> <br />
+        <input type="submit" name="name" value="Add Treatment" />
+    </form> <br />
+    <form method="post" action="/Patient/AddFinal2">
+        <input type="submit" name="name" value="Add Info" />
+    </form> <br />
+    <form method="post" action="/Patient/AddFinal">
+        <input type="submit" name="name" value="Add All" />
+    </form> <br />
+    @if (!(Model.current_patient is null))
+    {
+        <h4>Patient Information</h4>
+        <p>@Model.current_patient.name</p>
+        <p>@Model.current_patient.address</p>
+        <ul>
+            @foreach (var item in Model.current_patient.problems)
+            {
+
+                <li>@item.problem</li>
+                <ul>
+                    @foreach (var item2 in item.treatment)
+                    {
+                        <li>@item2.medicine_name</li>
+                        <li>@item2.total_times</li>
+                    }
+                </ul>
+            }
+        </ul>
+        <br />
+    }
+    @if (!(Model.current_problem is null))
+    {
+        <h4>Patient Problems</h4>
+        @Model.current_problem.problem
+        @foreach (var item in Model.current_problem.treatment)
+        {
+            <h4>Medication Information</h4>
+            <p>@item.medicine_name</p>
+            <p>@item.total_times</p>
+        }
+    }
+    <table border="3">
+        <tr>
+            <td>Name</td>
+            <td>Address</td>
+            <td>Problems And Treatments</td>
+
+        </tr>
+
+        @foreach (var pat in Model.total_patients)
+        {
+            <tr>
+                <td>@pat.name</td>
+                <td>@pat.address</td>
+                <td>
+                    <table>
+                        @foreach (var prob in pat.problems)
+                        {
+                            <tr>
+                                <td>@prob.problem</td>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            @foreach (var m in prob.treatment)
+                                            {
+                                                <td>@m.medicine_name</td>
+                                                <td>@m.total_times</td>
+                                            }
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

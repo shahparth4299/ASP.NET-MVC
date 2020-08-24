@@ -1,0 +1,17 @@
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\bin\Debug\netcoreapp3.1\PatientLibrary.deps.json
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\bin\Debug\netcoreapp3.1\PatientLibrary.dll
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\bin\Debug\netcoreapp3.1\PatientLibrary.pdb
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.AssemblyInfo.cs
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.dll
+C:\Users\Dell\source\repos\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.pdb
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\bin\Debug\netcoreapp3.1\PatientLibrary.deps.json
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\bin\Debug\netcoreapp3.1\PatientLibrary.dll
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\bin\Debug\netcoreapp3.1\PatientLibrary.pdb
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.csprojAssemblyReference.cache
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.AssemblyInfoInputs.cache
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.AssemblyInfo.cs
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.csproj.CoreCompileInputs.cache
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.dll
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\PatientLibrary\obj\Debug\netcoreapp3.1\PatientLibrary.pdb
