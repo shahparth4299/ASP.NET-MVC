@@ -13,6 +13,7 @@ namespace PatientLibrary
     }
     public class Patient : IPatient
     {
+        public int id { get; set; }
         public string name { get; set; }
         public string address { get; set; }
         public List<PatientProblem> problems { get; set; }
@@ -50,6 +51,7 @@ namespace PatientLibrary
     }
     public class PatientProblem
     {
+        public int id { get; set; }
         public PatientProblem()
         {
             this.treatment = new List<Treatment>();
@@ -60,6 +62,7 @@ namespace PatientLibrary
     }
     public class Treatment
     {
+        public int id { get; set; }
         public string medicine_name { get; set; }
         public string total_times { get; set; }
 

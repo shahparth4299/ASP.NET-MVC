@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HospitalRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,6 +27,13 @@ namespace MVCwithWillis
         //Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<HospitalDbContext>(
+                    options=>
+                    {
+                        options.UseSqlServer(Configuration["Connectionstring:HospitalDB"]);
+                    }
+                );
+            
             services.AddSingleton<IPatient, Patient>();
             services.AddSession(options =>
             {
@@ -32,6 +41,9 @@ namespace MVCwithWillis
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+            //var conn = Configuration.GetConnectionString("HospitalDB");
+            //services.AddDbContext<HospitalDbContext>(options =>
+            //options.UseSqlServer(conn));
             services.AddControllersWithViews();
         }
 

@@ -1,0 +1,15 @@
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\bin\Debug\netcoreapp3.1\HospitalRepository.deps.json
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\bin\Debug\netcoreapp3.1\HospitalRepository.dll
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.csprojAssemblyReference.cache
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.AssemblyInfoInputs.cache
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.AssemblyInfo.cs
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\bin\Debug\netcoreapp3.1\HospitalRepository.pdb
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\bin\Debug\netcoreapp3.1\PatientLibrary.dll
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\bin\Debug\netcoreapp3.1\PatientLibrary.pdb
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.csproj.CopyComplete
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.dll
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.pdb
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\bin\Debug\netcoreapp3.1\HospitalRepository.runtimeconfig.json
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\bin\Debug\netcoreapp3.1\HospitalRepository.runtimeconfig.dev.json
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.genruntimeconfig.cache
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\HospitalRepository\obj\Debug\netcoreapp3.1\HospitalRepository.csproj.CoreCompileInputs.cache

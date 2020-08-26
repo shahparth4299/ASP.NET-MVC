@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HospitalRepository;
 using Microsoft.AspNetCore.Mvc;
 using PatientLibrary;
 
@@ -9,11 +10,12 @@ namespace MVCwithWillis.Controllers
 {
     public class PatientController : Controller
     {
-        
+        private HospitalDbContext db;
         public static HospitalViewModel addModel = new HospitalViewModel();
         
-        public PatientController( IPatient p)
+        public PatientController( IPatient p, HospitalDbContext db)
         {
+            this.db = db;
             if(addModel.total_patients is null)
             {
                 addModel.total_patients = new List<Patient>();
@@ -58,6 +60,13 @@ namespace MVCwithWillis.Controllers
         {
             addModel.total_patients.Add(addModel.current_patient);
             addModel.current_patient = null;
+            
+            db.Database.EnsureCreated(); // creates the table
+            foreach (var item in addModel.total_patients)
+            {
+                db.patients.Add(item); // in memory
+            }
+            db.SaveChanges(); // physicall commit
             return View("PatientAdd", addModel);
         }
         public IActionResult Update()
