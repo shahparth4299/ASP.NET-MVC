@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "axZd+BcUpNru5ZcOz3DBTp3OKW8jedu+zPtitAodCirAKlAF/i5w0U3RdgHlz/0YSNoo4Xk7D8kT/BtfwCWguQ==",
+  "dgSpecHash": "fOKDsu3cyiAILPczZj/6XeRa8rMcfXsuzf79jEyVLgyeOXoNdFItvIhdk/xXTlIxVWrir/4Q+aXjMrv+looczw==",
   "success": true,
   "projectFilePath": "C:\\Users\\TrainingAdmin\\Desktop\\MVCwithWillis\\MVCwithWillis\\MVCwithWillis.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TrainingAdmin\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
     "C:\\Users\\TrainingAdmin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\TrainingAdmin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\TrainingAdmin\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

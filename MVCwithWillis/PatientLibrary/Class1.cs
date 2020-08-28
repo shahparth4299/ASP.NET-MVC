@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace PatientLibrary
 {
@@ -14,13 +15,22 @@ namespace PatientLibrary
     public class Patient : IPatient
     {
         public int id { get; set; }
+        [Required(ErrorMessage = "Name is Empty")]
         public string name { get; set; }
+        [Required(ErrorMessage = "Address is Empty")]
         public string address { get; set; }
+        /*
+        [Required(ErrorMessage ="Invalid Email")]
+        [RegularExpression(@"^[a-z]{1,5}@[a-z]{1,5}.[a-z]{2,3}$",ErrorMessage ="Invalid Email")]
+        public string email { get; set; }
+        */
         public List<PatientProblem> problems { get; set; }
         public string guid { get; set; }
         public Patient()
         {
+            guid = Guid.NewGuid().ToString();
             this.problems = new List<PatientProblem>();
+
             
         }
         public virtual bool Validate()
@@ -31,11 +41,9 @@ namespace PatientLibrary
             }
             return true;
         }
-
     }
     public class PatientWithAddressCheck : Patient , IPatient
     {
-
         public override bool Validate()
         {
             if (name.Length == 0)
@@ -46,6 +54,7 @@ namespace PatientLibrary
             {
                 throw new Exception("address is needed");
             }
+            
             return true;
         }
     }
