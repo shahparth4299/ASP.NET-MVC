@@ -4,23 +4,31 @@ using System.Text;
 
 namespace BusinessLayer
 {
-    public class Doctor : Staff
+    //Inheritance From Staff Class
+    //Implementing Salary Interface
+    public class Doctor : Staff, HospitalStaff
     {
-        string speciality;
-        Salary s;
-        public Doctor(Salary s,string speciality,Address adr, short id, short age, string name, string mobile) : base(adr, id, age, name, "Doctor", mobile)
+        public string education { get; set; }
+        public int totalPatientHandling { get; set; }
+        public Doctor() 
+        { }
+        public Doctor(string education,Address adr, short id, short age, string name, string mobile, DateTime doj) : base(adr, id, age, name, "Doctor", mobile,doj)
         {
-            this.speciality = speciality;
-            this.s = s;
+            this.education = education;
         }
         public void DisplayDoctor()
         {
-            DisplayInformation();
-            Console.WriteLine("Doctor Speciality: " + speciality);
+            //DisplayInformation();
+            Console.WriteLine("Doctor Education: " + education);
         }
-        public int DoctorSalary(short patient_count)
+        public int GetSalary()
         {
-            return s.GetSalary(patient_count);
+            throw new NotImplementedException();
+        }
+
+        public void DisplayData()
+        {
+            throw new NotImplementedException();
         }
     }
 }

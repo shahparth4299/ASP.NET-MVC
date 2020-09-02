@@ -4,21 +4,24 @@ using System.Text;
 
 namespace BusinessLayer
 {
-    public class Nurses : Staff
+    //Nurse is inheriting from staff and implementing Salary
+    public class Nurses : Staff, HospitalStaff
     {
-        public Salary s;
-        public Nurses(Salary s,Address adr, short id, short age, string name, string mobile) : base(adr,id,age,name,"Nurse",mobile)
-        {
-            this.s = s;
-        }
+        public int totalPatientHandling { get; set; }
+        public Nurses() { }
+        public Nurses(Address adr, short id, short age, string name, string mobile,DateTime doj) : base(adr,id,age,name,"Nurse",mobile,doj)
+        {}
         public void DisplayNurses()
         {
-            DisplayInformation();
+            //DisplayInformation();
         }
-        public int NurseSalary()
+        public int GetSalary()
         {
-            return s.GetSalary();
+            throw new NotImplementedException();
         }
-
+        public void DisplayData()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

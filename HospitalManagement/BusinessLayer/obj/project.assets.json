@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\TrainingAdmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TrainingAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",

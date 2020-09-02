@@ -4,20 +4,20 @@ using System.Text;
 
 namespace BusinessLayer
 {
-    public class Wardboy : Staff
+    public class Wardboy : Staff, HospitalStaff
     {
-        Salary s;
-        public Wardboy(Salary s, Address adr, short id, short age, string name, string mobile) : base(adr, id, age, name, "Wardboy", mobile)
+        public int totalPatientHandling { get; set; }
+        public Wardboy() { }
+        public Wardboy(Address adr, short id, short age, string name, string mobile,DateTime doj) : base(adr, id, age, name, "Wardboy", mobile,doj)
+        {}
+        public int GetSalary()
         {
-            this.s = s;
+            throw new NotImplementedException();
         }
-        public void DisplayWardboy()
+
+        public void DisplayData()
         {
-            DisplayInformation();
-        }
-        public int WardboySalary()
-        {
-            return s.GetSalary();
+            throw new NotImplementedException();
         }
     }
 }
