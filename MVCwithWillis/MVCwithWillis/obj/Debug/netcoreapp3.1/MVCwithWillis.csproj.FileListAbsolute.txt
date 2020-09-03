@@ -263,5 +263,6 @@ C:\Users\TrainingAdmin\Desktop\MVCwithWillis\MVCwithWillis\bin\Debug\netcoreapp3
 C:\Users\TrainingAdmin\Desktop\MVCwithWillis\MVCwithWillis\bin\Debug\netcoreapp3.1\HospitalRepository.dll
 C:\Users\TrainingAdmin\Desktop\MVCwithWillis\MVCwithWillis\bin\Debug\netcoreapp3.1\HospitalRepository.pdb
 C:\Users\TrainingAdmin\Desktop\MVCwithWillis\MVCwithWillis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\TrainingAdmin\Desktop\MVCwithWillis\MVCwithWillis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\TrainingAdmin\Desktop\MVCwithWillis\MVCwithWillis\obj\Debug\netcoreapp3.1\MVCwithWillis.csproj.CoreCompileInputs.cache
 C:\Users\TrainingAdmin\Desktop\MVCwithWillis\MVCwithWillis\obj\Debug\netcoreapp3.1\MVCwithWillis.MvcApplicationPartsAssemblyInfo.cache

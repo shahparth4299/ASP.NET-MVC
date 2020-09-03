@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj": {}
+    "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\TrainingAdmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TrainingAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj": {
+    "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj",
+        "projectUniqueName": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj",
         "projectName": "HospitalManagement",
-        "projectPath": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj",
+        "projectPath": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\HospitalManagement\\HospitalManagement.csproj",
         "packagesPath": "C:\\Users\\TrainingAdmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\HospitalManagement\\obj\\",
+        "outputPath": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\HospitalManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TrainingAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\TrainingAdmin\\source\\repos\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\TrainingAdmin\\Desktop\\Learning2020\\HospitalManagement\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }

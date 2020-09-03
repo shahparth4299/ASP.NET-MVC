@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fOKDsu3cyiAILPczZj/6XeRa8rMcfXsuzf79jEyVLgyeOXoNdFItvIhdk/xXTlIxVWrir/4Q+aXjMrv+looczw==",
+  "dgSpecHash": "QXZr0KpNAMlgPpRE4ZoSAIoZgTrNpcrqEE/dIEd20t5hA50fLcsFqGqkG+8B0BoRJA7zNDe8rnrVYRw3bn9seg==",
   "success": true,
   "projectFilePath": "C:\\Users\\TrainingAdmin\\Desktop\\MVCwithWillis\\MVCwithWillis\\MVCwithWillis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TrainingAdmin\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
+    "C:\\Users\\TrainingAdmin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.7\\microsoft.aspnetcore.authentication.jwtbearer.3.1.7.nupkg.sha512",
     "C:\\Users\\TrainingAdmin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\TrainingAdmin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\TrainingAdmin\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

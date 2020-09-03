@@ -4,14 +4,20 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using HospitalRepository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PatientLibrary;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MVCwithWillis.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [EnableCors("MyCorsPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class PatientAPIController : ControllerBase
@@ -38,22 +44,30 @@ namespace MVCwithWillis.Controllers
 
         // POST api/PatientAPI
         [HttpPost]
-        public IActionResult Post([FromBody] Patient obj)
+        public IActionResult Post([FromBody] List<Patient> obj)
         {
-            var context = new ValidationContext(obj, null, null);
-            List<ValidationResult> errresult = new List<ValidationResult>();
-            bool isValid = Validator.TryValidateObject(obj, context, errresult, true);
-            if (isValid)
+            foreach(var item in obj)
             {
-                db.patients.Add(obj);
-                db.SaveChanges();
-                List<Patient> pat = db.patients.ToList();
-                return Ok(pat);
+                Patient p = new Patient();
+                //p.id = item.id;
+                p.name = item.name;
+                p.address = item.address;
+
+                var context = new ValidationContext(obj, null, null);
+                List<ValidationResult> errresult = new List<ValidationResult>();
+                bool isValid = Validator.TryValidateObject(obj, context, errresult, true);
+                if (isValid)
+                {
+                    db.patients.Add(p);
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError, errresult);
+                }
             }
-            else
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, errresult);
-            }
+            db.SaveChanges();
+            List<Patient> pat = db.patients.ToList();
+            return Ok(pat);
         }
 
         // PUT api/<PatientAPIController>/5
